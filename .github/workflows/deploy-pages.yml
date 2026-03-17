@@ -33,10 +33,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Ensure CNAME from secret (optional)
-        if: ${{ secrets.CUSTOM_DOMAIN != '' }}
-        run: echo "${{ secrets.CUSTOM_DOMAIN }}" > dist/CNAME
-
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
