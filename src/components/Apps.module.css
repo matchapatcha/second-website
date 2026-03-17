@@ -1,0 +1,10 @@
+.apps {
+  padding: clamp(4rem, 8vw, 7rem) 0;
+  background: var(--bg2);
+}
+
+.caption {
+  color: var(--muted);
+  font-size: 1.05rem;
+  margin-top: 1rem;
+}

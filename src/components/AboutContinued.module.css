@@ -1,6 +1,5 @@
-.about {
+.section {
   padding: clamp(4rem, 8vw, 7rem) 0;
-  background: var(--bg2);
 }
 
 .grid {

@@ -5,3 +5,22 @@
   color: var(--muted);
   font-size: 0.85rem;
 }
+
+.githubLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text);
+  transition: color var(--transition);
+  margin-right: 0.5rem;
+}
+
+.githubLink:hover {
+  color: var(--accent2);
+}
+
+.githubIcon {
+  width: 18px;
+  height: 18px;
+}
+
