@@ -24,21 +24,37 @@
   height: 18px;
 }
 
+.section {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.sectionLabel {
+  margin: 0 0 0.8rem 0;
+  color: var(--accent);
+  font-weight: 600;
+}
+
 .discordLink {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
   color: var(--text);
   transition: color var(--transition);
-  margin-right: 0.5rem;
 }
 
 .discordLink:hover {
   color: var(--accent2);
 }
 
-.discordIcon {
-  width: 18px;
-  height: 18px;
+.discordLink:hover .discordIcon {
+  transform: scale(1.1);
 }
+
+.discordIcon {
+  width: 28px;
+  height: 28px;
+  transition: transform var(--transition);
+}
+
 
